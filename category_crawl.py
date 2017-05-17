@@ -40,3 +40,15 @@ for cat in cats:
                 due=body[:body.find(time_pt_r)]
                 print(name,'|', ccf_list[short],'|', due,'|', cat)
         if stop: break
+"""
+Output Sample:
+
+NAME   | CCF-RANK |  DUE  |  CATEGORY
+------------------------------------------------
+SIGIR eCom 2017 | DM-A | Jun 15, 2017 | NLP
+NIPS 2017 | AI-A | May 19, 2017 | artificial intelligence
+ICONIP 2017 | AI-C | Jun 10, 2017 | artificial intelligence
+IJCAI - CAI4HCD 2017 | AI-A | Jun 15, 2017 | artificial intelligence
+CIKM 2017 | DM-B | May 23, 2017 (May 16, 2017) | information retrieval
+SIGIR eCom 2017 | DM-A | Jun 15, 2017 | information retrieval
+"""
